@@ -1,0 +1,1 @@
+// Environment configuration for Smart Society Management\n\nconst ENV = {\n    NODE_ENV: process.env.NODE_ENV || 'development',\n    PORT: process.env.PORT || 3000,\n    DB_URI: process.env.DB_URI || 'mongodb://localhost:27017/smart-society',\n};\n\nmodule.exports = ENV;
